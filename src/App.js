@@ -1,18 +1,19 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from './pages/Main'; 
+import WriteForm from'./pages/WriteForm';
 import Layout from './layout/layout';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          {/* Assuming you want Main to be the default content of Layout */}
+      <Route path="/" element={<Layout />}>
           <Route index element={<Main />} />
-          {/* You can add more nested routes if necessary */}
+          <Route path="writeForm" element={<WriteForm />} />
+          
         </Route>
-      </Routes>
+        </Routes>
     </BrowserRouter>
   );
 }

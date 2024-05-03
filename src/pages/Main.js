@@ -45,7 +45,7 @@ function Main() {
             </section>
             <footer className={styles.footer}>
                 <div className={styles.f_yegrina}>
-                    <img src="/images/logo.png" alt="Yegrina Logo"/>
+                    <img src=".../../images/logo.png" alt="Yegrina Logo"/>
                     <p>Yegrina</p>
                 </div>
                 <div className={styles.f_contect}>
