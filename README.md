@@ -1,61 +1,70 @@
-<div align="center">
-  <h1>🌄 Yegrina</h1>
-</div>
+# Getting Started with Create React App
 
-> **삼육대학교 벤처아카데미 리엑트 프로젝트 4팀**
->
-> **개발기간: 2024.4.29~2024.5.8**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🙌 팀 소개
+## Available Scripts
 
-| 직책 | 이름   | 담당 파트                     |
-|------|--------|-------------------------------|
-| 팀장 | 김현수 | 행사 상세 페이지 작성, 깃허브 |
-| 팀원 | 김태영 | 기업 상세페이지 작성, PPT 제작 |
-| 팀원 | 배민서 | 재활용 상세페이지 작성, 노션관리 |
-| 팀원 | 이은서 | 리드미작성, 메인페이지 작성, 동적 글작성 |
+In the project directory, you can run:
 
-## 💡 프로젝트 소개
+### `npm start`
 
-프로젝트는 **제로웨이스트**를 주제로 하며, 재활용 방법을 안내하고 친환경 행사 혹은 친환경 제품을 소개해주는 사이트입니다.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**주제 선정 이유:** 환경을 고려하는 사람들이 많지만, 정확한 재활용 방법을 모르는 경우도 있으며, 많은 환경 단체들이 열심히 홍보를 하지만, 관심있는사람만 귀를 기울이지, 관심이 없는사람들은 해당 단체가 어떤일을 하는지 잘 모르기때문에, 환경 혹은 재활용에 관심이 가진 사람들이 더 쉽게 접근하기위해 이런 정보들을 한 곳에 모아 실제 사용자가 쉽게 접근할 수 있도록 하고자 합니다.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**프로그램의 영향:** 사람들에게 재활용 그리고 친환경 기업과 친환경적인 행사들을 소개하여 지구를 보호하는데 도움이 될 것입니다.
+### `npm test`
 
-## 🔎 개발 과정
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### ✔ 환경 설정
-- React 18
-- HTML5
+### `npm run build`
 
-#### ✔ 개발 환경
-VSCode, GitHub, React, HTML
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-#### ✔ 협업 툴
-![Notion](https://img.shields.io/badge/notion-FCBFBD?style=for-the-badge&logo=notion&logoColor=white)
-![Discord](https://img.shields.io/badge/discord-9999FF?style=for-the-badge&logo=discord&logoColor=black)
-![GitHub](https://img.shields.io/badge/GitHub-FECC00?style=for-the-badge&logo=GitHub&logoColor=white)
-Pigma
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 📌 브랜치 활용
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **main 브랜치:** 최종 코드 관리 브랜치로, PR을 통해 merge 해서 사용
-- **feature 브랜치:** 각자 담당한 기능 단위로 브랜치를 나누어서 사용
+### `npm run eject`
 
-## ⚙ 프로그램 주요 기능
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. **메인 페이지:** 총 페이지의 메인 페이지로, 재활용 방법, 환경 단체 카테고리, 친환경 기업 선택 가능 페이지
-2. **재활용하는 방법 페이지:** 쓰레기 종류 별로 재활용하는 방법이 목록 방식으로 나와있는 페이지
-3. **환경단체 정보 페이지:** 환경 단체별로 각 주요 이벤트가 목록으로 구성된 페이지
-4. **친환경 기업 정보 페이지:** 친환경 기업 혹은 기업측에서 환경을 생각하여 행사하는 것을 소개하는 페이지
-5. **환경 단체 정보 글 페이지:** 해당 목록을 선택하면 그에 해당하는 게시물을 볼 수 있는 페이지
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 🙏 개발 후기
-#### [ 팀장_김현수 ]
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-#### [ 팀원_김태영 ]
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-#### [ 팀원_배민서 ]
+## Learn More
 
-#### [ 팀원_이은서 ]
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
