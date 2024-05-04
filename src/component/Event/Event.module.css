@@ -1,0 +1,91 @@
+.homeone_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(249, 247, 242, 1);
+  align-items: flex-start;
+
+}
+@media screen and (max-width: 768px) {
+  .homeone_box {
+    flex-direction: column; /* 세로 방향 배치 */
+    align-items: center;
+    background: rgba(249,247,242); /* 가운데 정렬 */
+  }
+  .left_column {
+    position: static;
+    width: 100%; /* 가로 너비 100% */
+    height: auto;
+    margin-right: 0;
+    border-left: none;
+    order: 2; /* 순서 변경 */
+    background-color: rgba(249,247,242,1);
+  }
+
+  .right_column {
+    flex: 1;
+    padding: 20px;
+    order: 1; /* 순서 변경 */
+    
+  }
+}
+@media screen and (max-width: 480px) {
+  .left_column {
+    display: none; 
+    
+    
+  }
+}
+.left_column {
+  background: rgba(249, 247, 242, 1);
+  border-radius: 2%;
+  width: 30%;
+  position: sticky;
+  height: auto;
+  margin-right: 20px;
+}
+
+/* .left-column div{
+
+} */
+.right_column {
+  flex: 1;
+  background: rgba(249, 247, 242, 1);
+  padding: 0px;
+  width: auto;
+  padding: 20px;
+}
+.icon {
+  width: 160px;
+  height: 200px;
+  margin-right: 80px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.small_box {
+  width: 700px;
+  height: 193px;
+  border-radius: 3%;
+  border: 1px solid rgba(143, 136, 136, 1);
+  background: rgba(255, 255, 255, 0.6);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
