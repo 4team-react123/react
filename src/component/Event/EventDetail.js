@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import styles from './EventDetail.module.css';
-import Eventcontent from '../Event/Eventcontent';
-import Leftbox from './leftbox';
+import Eventcontent from './Eventcontent';
+import Leftbox from './LeftBox';
 
 const EventDetail = () => {
   const { id } = useParams();
