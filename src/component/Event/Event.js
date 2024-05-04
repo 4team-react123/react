@@ -18,16 +18,16 @@ const Event = () => {
           <h2><br /></h2>
           {eventData.map((event) => (
             <div key={event.id} className={styles.small_box}>
-            <Link to={`/event/${event.id}`} className={styles.link}>
-              <img src={event.imageUrl} alt="Event Icon" className={styles.icon} />
-              <Eventbox
-                year={event.year}
-                text={<span style={{ whiteSpace: 'pre' }}>{event.text}</span>}
-                explain={<span style={{ whiteSpace: 'pre' }}>{event.explain}</span>}
-                style={{ marginLeft: '20px' }}
-              />
-            </Link>
-          </div>
+              <Link to={`/events/${event.id}`} className={styles.link}>
+                <img src={event.imageUrl} alt="Event Icon" className={styles.icon} />
+                <Eventbox
+                  year={event.year}
+                  text={<span style={{ whiteSpace: 'pre' }}>{event.text}</span>}
+                  explain={<span style={{ whiteSpace: 'pre' }}>{event.explain}</span>}
+                  style={{ marginLeft: '20px' }}
+                />
+              </Link>
+            </div>
           ))}
         </div>
       </div>

@@ -6,6 +6,7 @@
     position: relative; /* absolute에서 relative로 변경 */
     z-index: 1000;  /* 다른 요소 위로 올리기 */
 	left: 10px;
+	
 }
 
 .a { 

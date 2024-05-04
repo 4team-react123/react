@@ -1,0 +1,106 @@
+.container {
+    width: 100%;
+    background: rgba(249, 247, 242, 1);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .content {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+
+  .tipsTitle{
+   
+        background: rgba(249, 247, 242, 1);
+        border-radius: 2%;
+        width: 30%;
+        position: sticky;
+        height: auto;
+        margin-right: 20px;
+   
+  }
+  
+  .title {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Just Me Again Down Here', cursive;
+    font-weight: regular;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .imageContainer {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .subtitle {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: regular;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .tips {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .tipsTitle {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: regular;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .eventInfo {
+    width: 70%;
+     margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .eventImage {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .eventTitle {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Krona One', sans-serif;
+    font-weight: regular;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .eventDescription {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Krona One', sans-serif;
+    font-weight: regular;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
