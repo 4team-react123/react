@@ -27,7 +27,7 @@
   .right_column {
     flex: 1;
     padding: 20px;
-    order: 1; /* 순서 변경 */
+    order: 1; /* 순서  */
     
   }
 }
