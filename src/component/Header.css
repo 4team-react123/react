@@ -1,0 +1,34 @@
+/* Header.css */
+
+.navigationBar {
+    display: flex;
+    width: 100vw;
+    flex-flow: row nowrap;
+    align-items: center; 
+  }
+  
+  .userName {
+    margin-left: 30px;
+    margin-right: auto;
+  }
+  
+  .userName img {
+    width: 20px; 
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  
+  .userName span {
+    margin: 0 10px;
+  }
+  
+  .navigationItems {
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  
+  .navigationItems span {
+    margin: 0 10px;
+  }
+  
