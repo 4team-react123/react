@@ -13,9 +13,9 @@ function Nav(){
                 <span  className={headStyle.logoname}>Yegrina</span>
                     </div>
                 <div className={headStyle.mainList}>
-                    <div className={headStyle.pd}><span className={headStyle.mainname}>Main</span></div>
-                    <div className={headStyle.pd}><Link to="/recycle" className={headStyle.recyclename}>Recycle</Link></div>
-                    <div className={headStyle.pd}><span  className={headStyle.eventname}>Event</span></div>
+                    <div className={headStyle.pd}><Link to="/" className={headStyle.mainname}>Main</Link></div>
+                    <div className={headStyle.pd}><Link to="/nomal" className={headStyle.recyclename}>Recycle</Link></div>
+                    <div className={headStyle.pd}><Link to="/event"  className={headStyle.eventname}>Event</Link></div>
                     <div className={headStyle.pd}><span  className={headStyle.businessname}>Business</span></div>
                 </div>
                 </div>

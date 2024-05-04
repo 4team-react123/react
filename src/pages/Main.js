@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Main.module.css'; 
 import Header from '../component/Nav';
-import {Link} from "react-router-dom";
 
 
 function Main() {
@@ -27,7 +26,7 @@ function Main() {
                 <article>
                     <span className={styles.v4_8014}>재활용</span>
                     <span className={styles.v4_8015}>지구를 위한다면 재활용부터</span>
-                    <button className={styles.v4_8016}><Link to="/recycle" className={styles.a}>Recycle</Link></button>
+                    <button className={styles.v4_8016}>recycle</button>
                 </article>
                 <article>
                     <div className={styles.v4_8021}></div>

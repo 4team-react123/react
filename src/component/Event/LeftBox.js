@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './LeftBox.module.css'; 
+import styles from './LeftBox.module.css'; // 확장자 .module.css 사용
 
 const Leftbox = () => {
     return (
