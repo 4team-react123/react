@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from './pages/Main'; 
 import Layout from './layout/layout';
 import Eventpage from "./pages/Eventpage";
-import Nav from "./component/Nav";
+
+import EventDetail from "./component/Event/EventDetail";
 
 function App() {
   return (
@@ -15,7 +16,10 @@ function App() {
           <Route index element={<Main />} />
           {/* You can add more nested routes if necessary */}
           
-          <Route path="event" element={<Eventpage/>}/>
+          
+        <Route path="/events" element={<Eventpage />} />
+        <Route path="/events/:id" element={<EventDetail />} />
+        
         </Route>
       </Routes>
     </BrowserRouter>
