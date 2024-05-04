@@ -1,0 +1,22 @@
+/* styleguide.css */
+
+:root {
+    --color-styles-foreground-default: rgba(35, 52, 40, 1);
+    --color-styles-foreground-muted: rgba(35, 52, 40, 0.7);
+    --color-styles-foreground-subtle: rgba(34, 34, 34, 1);
+    --color-styles-foreground-faint: rgba(85, 85, 85, 1);
+    --color-styles-canvas-default: rgba(249, 247, 242, 1);
+    --color-styles-canvas-subtle: rgba(255, 255, 255, 1);
+    --color-styles-canvas-overlay: rgba(255, 255, 255, 0.9);
+    --color-styles-canvas-heavy: rgba(227, 222, 196, 1);
+    --color-styles-emphasis-onprimary: rgba(255, 255, 255, 1);
+    --color-styles-border-default: rgba(255, 255, 255, 1);
+    --color-styles-border-muted: rgba(238, 236, 221, 1);
+    --color-styles-border-strong: rgba(52, 52, 52, 1);
+    --color-styles-emphasis-onsecondary: rgba(255, 255, 255, 1);
+    --color-styles-brand-primary: rgba(35, 52, 40, 1);
+    --color-styles-brand-secondary: rgba(106, 119, 115, 1);
+  }
+  
+  /* Add other styles from styleguide.css */
+  
