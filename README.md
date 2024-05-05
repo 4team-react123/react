@@ -10,8 +10,8 @@
 
 | 직책 | 이름   | 담당 파트                     |
 |------|--------|-------------------------------|
-| 팀장 | 김현수 | 행사 상세 페이지 작성, 깃허브 |
-| 팀원 | 김태영 | 기업 상세페이지 작성, PPT 제작 |
+| 팀장 | 김현수 | 행사 상세 페이지 작성, PPT제작 |
+| 팀원 | 김태영 | 기업 상세페이지 작성 |
 | 팀원 | 배민서 | 재활용 상세페이지 작성, 노션관리 |
 | 팀원 | 이은서 | 리드미작성, 메인페이지 작성, 동적 글작성 |
 
@@ -30,18 +30,20 @@
 - HTML5
 
 #### ✔ 개발 환경
-VSCode, GitHub, React, HTML
+vscode,React
 
 #### ✔ 협업 툴
 ![Notion](https://img.shields.io/badge/notion-FCBFBD?style=for-the-badge&logo=notion&logoColor=white)
 ![Discord](https://img.shields.io/badge/discord-9999FF?style=for-the-badge&logo=discord&logoColor=black)
 ![GitHub](https://img.shields.io/badge/GitHub-FECC00?style=for-the-badge&logo=GitHub&logoColor=white)
-Pigma
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
 
 ## 📌 브랜치 활용
 
-- **main 브랜치:** 최종 코드 관리 브랜치로, PR을 통해 merge 해서 사용
+- **main 브랜치:** 최종 코드 관리 브랜치로, prototype 브랜치에서 문제가 없으면,merge 해서 사용
 - **feature 브랜치:** 각자 담당한 기능 단위로 브랜치를 나누어서 사용
+- **prototype 브랜치:** main 에 올리기전, 오류가 있는지 최종 점검하는 브랜치. 
 
 ## ⚙ 프로그램 주요 기능
 
