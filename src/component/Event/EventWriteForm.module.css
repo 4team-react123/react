@@ -1,0 +1,67 @@
+/* EventWriteForm.module.css */
+/* 전체적인 구조 여백 */
+table {
+    margin: auto;
+}
+body {
+    background-color: #FFFEF6;
+}
+/* input 태그의 type=text 설정 */
+input[type="text"] {
+    border: 1.5px rgb(0, 56, 17) solid;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #FFFEF6;
+}
+/* 입력칸 설정 */
+textarea {
+    border: 1.5px rgb(68, 90, 74) solid;
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+    background-color: #FFFEF6;
+    
+}
+
+.description {
+    height: 30px;
+}
+
+/* header 태그 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+
+/* 기본 버튼 스타일 */
+.but {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(54, 85, 76);
+    background-size: cover;
+    border:1px rgb(54, 85, 76)solid;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    opacity: 0.95;
+    border: none;
+    cursor: pointer;
+    overflow: hidden; 
+    z-index: 10;
+    border-radius: 15px;
+    margin:2px;
+}
+/*기본 버튼 스타일:hover */
+.but:hover {
+    background-color: rgb(54, 85, 76);
+    border:1px rgb(54, 85, 76)solid;
+    color: white;
+    border-radius:15px;
+}
