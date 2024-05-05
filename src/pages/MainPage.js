@@ -1,6 +1,6 @@
 import Main from "../component/Main";
 
-function Main(){
+function Eventpage(){
     return(
         <div>
             <Main/>

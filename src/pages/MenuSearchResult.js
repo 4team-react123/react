@@ -26,14 +26,20 @@ function MenuSearchResult() {
     return (
         <div>
             <RecycleHeader />
-            <h1 >플라스틱 쓰레기</h1>
-            <div>
-
-                <RecycleNavbar />
-            </div>
-            <h1>검색된 메뉴</h1>
-            <div className={boxStyle.MenuBox}>
-                {menuList.map(menu => <MenuItem key={menu.menuCode} menu={menu} />)}
+            <div className={boxStyle.pd2}>
+                <div class={boxStyle.mainContent2}>
+                    <div>
+                        <RecycleNavbar />
+                    </div>
+                    <div class={boxStyle.flex2}>
+                        <div className={boxStyle.center10}>
+                            <h1>검색된 메뉴</h1>
+                            <div className={boxStyle.menuBox2}>
+                                {menuList.map(menu => <MenuItem key={menu.menuCode} menu={menu}/>)}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

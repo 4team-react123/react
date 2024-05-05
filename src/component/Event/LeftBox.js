@@ -7,8 +7,9 @@ const Leftbox = () => {
             <div className={styles.check}></div> {/* styles 객체에서 클래스 이름 가져오기 */}
             <div className={styles.promise}></div> {/* styles 객체에서 클래스 이름 가져오기 */}
             <span className={styles.day}>
-                4월 5일 식목일
-                4월 22일 지구의 날
+                <br/>
+                4월 5일 식목일<br/>
+                4월 22일 지구의 날<br/>
                 6월5일 환경의 날
             </span>
             <div className={styles.a}></div> {/* styles 객체에서 클래스 이름 가져오기 */}

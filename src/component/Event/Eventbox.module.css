@@ -1,25 +1,24 @@
 .year {
-    font-size: 15px;
-    color: rgb(166, 135, 12);
-    text-align: center;
-  }
-  
-  .boxContent {
-    text-align: center; /* 텍스트 가운데 정렬 */
-  
-    flex-direction: column;
-  
-  }
-  
-  a {
-    font-size: 20px;
-  }
-  
-  p {
-    font-size: 15px;
-    color: rgb(95, 95, 95);
-  }
-  .textCenter {
-    text-align: center;
-  }
-  
+  font-size: 15px;
+  color: rgb(166, 135, 12);
+  text-align: center;
+}
+
+.boxContent {
+  text-align: center; /* 텍스트 가운데 정렬 */
+
+  flex-direction: column;
+
+}
+
+a {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+  color: rgb(95, 95, 95);
+}
+.textCenter {
+  text-align: center;
+}
