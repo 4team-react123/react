@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import RecycleHeader from '../component/Recycle/RecycleHeader';
 import RecycleNavbar from '../component/Recycle/RecycleNavbar';
 import RecycleWriteForm from '../component/Recycle/RecycleWriteForm'; // RecycleWriteForm 컴포넌트 임포트
-import { getMenuList } from '../apis/MenuAPI'; // getMenuList 함수 임포트
+import { getCategoryMenuList } from '../apis/MenuAPI';
 
 function Food() {
     const [menuList, setMenuList] = useState([]);
@@ -14,7 +14,7 @@ function Food() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        setMenuList(getMenuList());
+        setMenuList(getCategoryMenuList('음식물')); // 음식물 카테고리에 해당하는 메뉴 데이터만 가져옴
     }, []);
 
     // 글 작성 버튼 클릭 시 비밀번호 확인 후 RecycleWriteForm 표시
@@ -62,7 +62,7 @@ function Food() {
                         value={searchValue}
                         onChange={e => setSearchValue(e.target.value)}
                     />
-                    <button onClick={onClickSearchHandler}>검색</button>
+                    <button onClick={onClickSearchHandler}>전체 검색</button>
                     {/* 글 작성 버튼 추가 */}
                     <button onClick={onClickWriteHandler}>글 작성</button>
                 </div>
@@ -70,10 +70,10 @@ function Food() {
                     {menuList.map(menu => <MenuItem key={menu.menuCode} menu={menu} />)}
                 </div>
             </div>
+        </div>
+        </div>
             {/* 글 작성 폼을 보여줄지 여부에 따라 조건부 렌더링 */}
             {showWriteForm && <RecycleWriteForm onPostSubmit={addNewMenu} />}
-        </div>
-        </div>
         </div>
         
     );

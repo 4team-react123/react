@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import itemStyle from './MenuItem.module.css';
 
 function RecycleNavbar() {
 
@@ -8,13 +9,8 @@ function RecycleNavbar() {
     };
 
     return (
-        <div className="flex">
-            <ul>
-                <li>
-                    <NavLink to="/" activeStyle={activeStyle}>
-                        <button style={window.location.pathname === '/' ? activeStyle : null}>HOME</button>
-                    </NavLink>
-                </li>
+        <div className={itemStyle.flex}>
+            <ul className='pdTop'>
                 <li>
                     <NavLink to="/nomal" activeStyle={activeStyle}>
                         <button style={window.location.pathname === '/nomal' ? activeStyle : null}>일반</button>
