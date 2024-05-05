@@ -4,7 +4,7 @@ import boxStyle from './Menu.module.css';
 import { useNavigate } from 'react-router-dom';
 import RecycleHeader from '../component/Recycle/RecycleHeader';
 import RecycleNavbar from '../component/Recycle/RecycleNavbar';
-import RecycleWriteForm from '../component/Recycle/RecycleWriteForm'; // RecycleWriteForm 컴포넌트 임포트
+import RecycleWriteForm from '../component/Recycle/RecycleWrite/WriteForm'; // RecycleWriteForm 컴포넌트 임포트
 import { getMenuList } from '../apis/MenuAPI'; // getMenuList 함수 임포트
 
 function Food() {
