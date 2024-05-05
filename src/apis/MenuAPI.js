@@ -28,3 +28,14 @@ export const getCategoryMenuList = (categoryName) => {
     // 카테고리에 따라 필요한 메뉴 데이터만 필터링하여 반환
     return menuList.filter(menu => menu.categoryName === categoryName);
 }
+
+// 로컬 스토리지에서 메뉴 리스트를 가져오는 함수
+export function getMenuListFromStorage() {
+    const storedMenuList = localStorage.getItem('menuList');
+    return storedMenuList ? JSON.parse(storedMenuList) : [];
+}
+
+// 메뉴 리스트를 로컬 스토리지에 저장하는 함수
+export function setMenuListToStorage(menuList) {
+    localStorage.setItem('menuList', JSON.stringify(menuList));
+}
