@@ -1,20 +1,52 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './RecycleWriteForm.module.css'; // CSS 모듈 파일 임포트
 import { getNextMenuCode } from '../../../apis/MenuAPI';
 
-function EtcWriteForm({ onPostSubmit, categoryName }) {
+function WriteForm({ onPostSubmit, categoryName }) {
     // 초기 state 설정
     const [menuData, setMenuData] = useState({
-        menuCode: getNextMenuCode(), // 자동으로 다음 메뉴 코드 할당
-        menuName: '', // 사용자 입력을 받음
+        menuCode: getNextMenuCode(), 
+        menuName: '', 
         categoryName: categoryName, 
         detail: {
-            description: '', // 사용자 입력을 받음
-            image: '/recycleImages/4.png' // 고정 이미지
+            description: '', 
+            image: '' 
         }
     });
 
-    // 입력 필드 변경 처리 함수
+    useEffect(() => {
+        let imagePath = '';
+        switch (categoryName) {
+            case '플라스틱':
+                imagePath = '/recycleImages/plastic.png';  // 예시 이미지, 실제 사용 시 적절한 이미지 경로로 변경 필요
+                console.log(imagePath);
+                break;
+            case '일반':
+                imagePath = '/recycleImages/normal.png';  // 예시 이미지, 실제 사용 시 적절한 이미지 경로로 변경 필요
+                console.log(imagePath);
+                break;
+            case '종이':
+                imagePath = '/recycleImages/paper.png';  // 예시 이미지, 실제 사용 시 적절한 이미지 경로로 변경 필요
+                console.log(imagePath);
+                break;
+            case '기타':
+                imagePath = '/recycleImages/etc.png';  // 예시 이미지, 실제 사용 시 적절한 이미지 경로로 변경 필요
+                console.log(imagePath);
+                break;
+            default:
+                imagePath = '/logo.png';  // 기본 이미지 경로
+                console.log(imagePath);
+        }
+
+        setMenuData(prevData => ({
+            ...prevData,
+            detail: {
+                ...prevData.detail,
+                image: imagePath
+            }
+        }));
+    }, [categoryName]);
+    // 입력값 처리하는 함수
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         if (name === 'description') {
@@ -37,7 +69,6 @@ function EtcWriteForm({ onPostSubmit, categoryName }) {
 
         window.location.reload();
     };
-
     return (
         <form id="writeForm">
             <table>
@@ -89,4 +120,4 @@ function EtcWriteForm({ onPostSubmit, categoryName }) {
     );
 }
 
-export default EtcWriteForm;
+export default WriteForm;
