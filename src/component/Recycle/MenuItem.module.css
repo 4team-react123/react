@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "GangwonEdu_OTFBoldA";
+  }
+
+
 .mainContent{   
     display: flex;
     flex-direction: row;
@@ -22,7 +34,8 @@ li{
     border: 1px solid;
     border-radius: 20px;
     margin: 20px;
-    background: white;}
+    background: #f7f7f7;
+    min-width: 320px;}
 img{ width: 150px;}
 .flex{display: flex;
     flex-direction: column;

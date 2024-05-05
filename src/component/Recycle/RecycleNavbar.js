@@ -27,11 +27,6 @@ function RecycleNavbar() {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/food" activeStyle={activeStyle}>
-                        <button style={window.location.pathname === '/food' ? activeStyle : null}>음식물</button>
-                    </NavLink>
-                </li>
-                <li>
                     <NavLink to="/etc" activeStyle={activeStyle}>
                         <button style={window.location.pathname === '/etc' ? activeStyle : null}>기타</button>
                     </NavLink>

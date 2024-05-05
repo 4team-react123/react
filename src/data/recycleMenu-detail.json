@@ -11,21 +11,21 @@
     },
     {
        "menuCode":2,
-       "menuName":"플라스틱 용기",
+       "menuName":"일회용 플라스틱",
        "categoryName":"플라스틱",
        "isOrderable":true,
        "detail": {
-           "description": "태안 바다에서 갓 잡아올린 싱싱한 우럭을 이용한 상큼한 스무디",
+           "description": "내용물, 라벨, 상표를 제거 후 물로 깨끗이 세척한 후 플라스틱으로 배출",
            "image": "/recycleImages/2.png"
        }
     },
     {
        "menuCode":3,
-       "menuName":"알약포장재",
+       "menuName":"플라스틱 용기",
        "categoryName":"플라스틱",
        "isOrderable":true,
        "detail": {
-           "description": "목포 밤바다를 누비는 생갈치를 이용한 고단백 쉐이크 음료",
+           "description": "고무 패킹은 제거해서 일반으로 버리고 깨끗이 세척한 후 플라스틱으로 배출",
            "image": "/recycleImages/3.png"
        }
     },
@@ -35,268 +35,208 @@
        "categoryName":"플라스틱",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
+           "description": "여러 재질이 섞이었기 때문에 분리가 어려워 종량제 봉투에 담아서 배출",
            "image": "/recycleImages/4.png"
        }
     },
     {
        "menuCode":5,
-       "menuName":"기타 테이프",
+       "menuName":"아이스박스",
        "categoryName":"플라스틱",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "박스에 붙어있는 택배송장, 테이프 등 완전히 제거후 물로 꺠끗이 세척한 후 분리 배출",
+           "image": "/recycleImages/5.png"
        }
     },
     {
        "menuCode":6,
-       "menuName":"기타 테이프",
+       "menuName":"요거트 용기",
        "categoryName":"플라스틱",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "비닐 뚜껑은 떼어낸 후 내부를 물로 세척한 후 플라스틱으로 분리 배출",
+           "image": "/recycleImages/6.png"
        }
     },
     {
        "menuCode":7,
-       "menuName":"기타 테이프",
+       "menuName":"계란 껍데기",
        "categoryName":"일반",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "음식물쓰레기가 아니므로, 쓰레기 종량제 봉투를 사용하여 배출",
+           "image": "/recycleImages/7.png"
        }
     },
     {
        "menuCode":8,
-       "menuName":"기타 테이프",
+       "menuName":"생리대",
        "categoryName":"일반",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "안에 이물질이 나오지 않게 잘 감싼 후 종량제 봉투에 담아 배출",
+           "image": "/recycleImages/8.png"
        }
     },
     {
        "menuCode":9,
-       "menuName":"기타 테이프",
+       "menuName":"기저귀",
        "categoryName":"일반",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "안에 이물질이 나오지 않게 잘 감싼 후 종량제 봉투에 담아 배출",
+           "image": "/recycleImages/9.png"
        }
     },
     {
        "menuCode":10,
-       "menuName":"기타 테이프",
+       "menuName":"차 티백",
        "categoryName":"일반",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "음식물쓰레기가 아니므로, 쓰레기 종량제 봉투를 사용하여 배출",
+           "image": "/recycleImages/10.png"
        }
     },
     {
        "menuCode":11,
-       "menuName":"기타 테이프",
+       "menuName":"뼈",
        "categoryName":"일반",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "음식물쓰레기가 아니므로, 쓰레기 종량제 봉투를 사용하여 배출",
+           "image": "/recycleImages/11.png"
        }
     },
     {
        "menuCode":12,
-       "menuName":"기타 테이프",
+       "menuName":"과일 씨",
        "categoryName":"일반",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "음식물쓰레기가 아니므로, 쓰레기 종량제 봉투를 사용하여 배출",
+           "image": "/recycleImages/12.png"
        }
     },
     {
        "menuCode":13,
-       "menuName":"기타 테이프",
+       "menuName":"종이재질 핸드타월",
        "categoryName":"종이",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "물기만 닦은 핸드타월은 종이류로 배출",
+           "image": "/recycleImages/13.png"
        }
     },
     {
        "menuCode":14,
-       "menuName":"기타 테이프",
+       "menuName":"제본된 책자류",
        "categoryName":"종이",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "스프링, 비닐 등 다른 재질 제거 후 배출",
+           "image": "/recycleImages/14.png"
        }
     },
     {
        "menuCode":15,
-       "menuName":"기타 테이프",
+       "menuName":"종이팩",
        "categoryName":"종이",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "이물질을 제거하고 말린 후 종이팩 전용수거함에 배출 없다면 끈으로 묶어 배출",
+           "image": "/recycleImages/15.png"
        }
     },
     {
        "menuCode":16,
-       "menuName":"기타 테이프",
+       "menuName":"영수증",
        "categoryName":"종이",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "종이류에 배출하지 말고 종량제 봉투에 넣어서 배출",
+           "image": "/recycleImages/16.png"
        }
     },
     {
        "menuCode":17,
-       "menuName":"기타 테이프",
+       "menuName":"은박지",
        "categoryName":"종이",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "종이류에 배출하지 말고 종량제 봉투에 넣어서 배출",
+           "image": "/recycleImages/17.png"
        }
     },
     {
        "menuCode":18,
-       "menuName":"기타 테이프",
+       "menuName":"코팅된 종이",
        "categoryName":"종이",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
-       }
-    },
-    {
-       "menuCode":19,
-       "menuName":"기타 테이프",
-       "categoryName":"음식물",
-       "isOrderable":true,
-       "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
-       }
-    },
-    {
-       "menuCode":20,
-       "menuName":"기타 테이프",
-       "categoryName":"음식물",
-       "isOrderable":true,
-       "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
-       }
-    },
-    {
-       "menuCode":21,
-       "menuName":"기타 테이프",
-       "categoryName":"음식물",
-       "isOrderable":true,
-       "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
-       }
-    },
-    {
-       "menuCode":22,
-       "menuName":"기타 테이프",
-       "categoryName":"음식물",
-       "isOrderable":true,
-       "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
-       }
-    },
-    {
-       "menuCode":23,
-       "menuName":"기타 테이프",
-       "categoryName":"음식물",
-       "isOrderable":true,
-       "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
-       }
-    },
-    {
-       "menuCode":24,
-       "menuName":"기타 테이프",
-       "categoryName":"음식물",
-       "isOrderable":true,
-       "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "종이류에 배출하지 말고 종량제 봉투에 넣어서 배출",
+           "image": "/recycleImages/18.png"
        }
     },
     {
        "menuCode":25,
-       "menuName":"기타 테이프",
+       "menuName":"라면봉지",
        "categoryName":"기타",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "물로 헹궈 잔여물을 없애고 비닐류로 배출",
+           "image": "/recycleImages/25.png"
        }
     },
     {
        "menuCode":26,
-       "menuName":"기타 테이프",
+       "menuName":"유리병",
        "categoryName":"기타",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "이물질 제거후 배출 꺠진 유리병은 종량제 봉투나 전용마대에 넣어 배출",
+           "image": "/recycleImages/26.png"
        }
     },
     {
        "menuCode":27,
-       "menuName":"기타 테이프",
+       "menuName":"형광등",
        "categoryName":"기타",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "깨어지지 않은 상태에서 형광등 분리배출 용기에 배출",
+           "image": "/recycleImages/27.png"
        }
     },
     {
        "menuCode":28,
-       "menuName":"기타 테이프",
+       "menuName":"의류",
        "categoryName":"기타",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "물기에 젖지 않도록 마대 등에 담거나 묶어서 배출",
+           "image": "/recycleImages/28.png"
        }
     },
     {
        "menuCode":29,
-       "menuName":"기타 테이프",
+       "menuName":"캔",
        "categoryName":"기타",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "내용물을 비우고 가능한 압착하여 배출",
+           "image": "/recycleImages/29.png"
        }
     },
     {
        "menuCode":30,
-       "menuName":"기타 테이프",
+       "menuName":"가전제품",
        "categoryName":"기타",
        "isOrderable":true,
        "detail": {
-           "description": "향균작용이 뛰어난 생마늘과 혈행개선에 도움을 주는 미역을 이용한 건강한 디저트 파르페",
-           "image": "/recycleImages/4.png"
+           "description": "중고 물품 교환매장에 배출, 지방자치단체에 연락하여 수수료 내고 배출",
+           "image": "/recycleImages/30.png"
        }
     }
  

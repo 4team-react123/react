@@ -1,13 +1,24 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './Main.module.css'; 
 import Header from './Nav';
-import { Link } from 'react-router-dom';
-
 
 
 function Main() {
+    const navigate = useNavigate();
+
+    const recycleHandleClick = () => {
+      navigate('/nomal');
+    };
+      const EventHandleClick = () => {
+        navigate('/event');
+      };
+    const OrgHandleClick = () => {
+        navigate('/organization');
+    }
     return (
         <main className={styles.v4_7987}>
+            
             <Header />
             
             
@@ -18,43 +29,35 @@ function Main() {
             </div>
             <section className={styles.v4_7998}>
                 <span className={styles.v4_7999}>예그리나</span>
-                <span className={styles.v4_8000}>사랑으로 행복을 전하는,</span>
+                <span className={styles.v4_8000}> 제로웨이스트 실천을위해</span>
             </section>
             <section className={styles.v4_8001}>
-                <span className={styles.v4_8008}>예그리나,</span>
-                <span className={styles.v4_8009}>환경문제, 우리만의 것이 아니다.</span>
-                <span className={styles.v4_8023}>지구를 위한 첫걸음<br/>예그리나 할까요?</span>
+                <div className={styles.mainLeaf}>
+                <span className={styles.v4_8023}><span>지구를 위한 첫걸음<br/>예그리나 할까요?</span></span>
+                </div>
                 <div className={styles.v4_8013}></div>
                 <article>
+                    <div className={styles.flex}>
                     <span className={styles.v4_8014}>재활용</span>
                     <span className={styles.v4_8015}>지구를 위한다면 재활용부터</span>
-                    <button className={styles.v4_8016}><Link to="/nomal">Recycle</Link></button>
+                    <button className={styles.r_button} onClick={recycleHandleClick} >RECYCLE</button>
+                    </div>
                 </article>
                 <article>
                     <div className={styles.v4_8021}></div>
                     <span className={styles.v4_8025}>Event</span>
                     <span className={styles.v4_8019}>환경을 위하는, 당신만의.</span>
-                    <div className={styles.v4_8022}></div>
-                    <button className={styles.e_button}>Event</button>
+                    <button className={styles.e_button} onClick={EventHandleClick}>EVENT</button>
                 </article>
             </section>
             <section>
                 <div className={styles.v4_8002}></div>
                 <div className={styles.v4_7988}></div>
                 <span className={styles.v4_8024}>기업</span>
-                <button className={styles.c_button}>더보기</button>
+                <button className={styles.c_button} onClick={OrgHandleClick}>BUSINESS</button>
                 <span className={styles.v4_8026}>친환경을 선두하는.</span>
             </section>
-            <footer className={styles.footer}>
-                <div className={styles.f_yegrina}>
-                    <img src=".../../images/logo.png" alt="Yegrina Logo"/>
-                    <p>Yegrina</p>
-                </div>
-                <div className={styles.f_contect}>
-                    <span className={styles.main_link}>Main</span>
-                    <span className={styles.contect_link}>Contect</span>
-                </div>
-            </footer>
+
         </main>
     );
 }
