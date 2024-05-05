@@ -1,0 +1,83 @@
+/* Footer.css */
+
+.footer {
+    background-color: #6a7773;
+    color: white;
+  }
+  
+  .footerNavigationBar {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 78px;
+    flex-flow: row nowrap;
+  }
+  
+  .footerNavigationBar .footerUserName {
+    display: flex;
+    margin-left: 3%;
+    margin-right: auto;
+  }
+  
+  .footerNavigationBar .footerUserName img {
+    width: 30px;
+    height: 30px;
+    margin-top: 26px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  .footerNavigationBar .footerUserName span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerNavigationContent {
+    display: flex;
+    flex-flow: column;
+    margin-left: auto;
+    margin-right: 3%;
+  }
+  
+  .footerNavigationItems {
+    margin-top:10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerNavigationItems a, .footerNavigationItems span {
+    color: white;
+    font-size: 0.98em; 
+    margin: 0 10px;
+    text-decoration: none;  
+}
+
+.footerNavigationItems a:hover {
+    text-decoration: underline;  
+}
+
+  .footerNavigationContent hr {
+    width: 100%;
+    border: 1px solid white;
+  }
+  
+  .footerNavigationItems span {
+    margin: 0 10px;
+  }
+  
+  .footerHR {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    margin-left:10%;
+
+  }
+  
+  .footerHR hr {
+    width: 95%;
+    margin-bottom: 30%;
+    border: 1px solid ;
+  }
+  
+  

@@ -1,10 +1,11 @@
-import EventWrite from "../component/Event/EventWriteForm";
+import React from "react";
+import EventWriteForm from "../component/Event/EventWriteForm"; // 변경된 부분
 
-function WritePage(){
+function EventWritePage(){
     return(
         <div>
-            <EventWrite/>
+            <EventWriteForm/> 
         </div>
     )
 }
-export default EventWrite;
+export default EventWritePage;

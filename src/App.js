@@ -5,14 +5,16 @@ import Layout from './layout/layout';
 import MenuSearchResult from "./pages/MenuSearchResult";
 import Nomal from "./pages/NomalPage";
 import Plastic from "./pages/plasticPage";
-import Food from "./pages/FoodPage";
+
 import Paper from "./pages/PaperPage";
 import Etc from "./pages/EtcPage";
 
 import Eventpage from "./pages/Eventpage";
 import EventDetail from "./component/Event/EventDetail";
 import EventWrite from "./pages/EventWritePage";
-import PlasticWrite from "./component/Recycle/RecycleWriteForm";
+
+import OrgPage from "./component/Organization/OrgPage"
+
 
 function App() {
   return (
@@ -37,11 +39,7 @@ function App() {
             <Route path="search" element={<MenuSearchResult />} />
             {/* <Route path="write" element={<PlasticWrite />} />  */}
           </Route>
-          <Route path="food">
-            <Route index element={<Food />} />
-            <Route path="search" element={<MenuSearchResult />} />
-            {/* <Route path="write" element={<PlasticWrite />} />  */}
-          </Route>
+
           <Route path="etc">
             <Route index element={<Etc />} />
             <Route path="search" element={<MenuSearchResult />} />
@@ -53,7 +51,12 @@ function App() {
             <Route index element={<Eventpage />} />
             <Route path="write" element={<EventWrite />} />
           </Route>
-          <Route path="event/:id" element={<EventDetail />} />
+          <Route path="events/:id" element={<EventDetail />} />
+          <Route path="*" element={<Outlet />} />
+
+          {/* organization */}
+          <Route path="organization" element={<OrgPage />} /> {/* OrgPage.js를 렌더링합니다. */}
+          
           <Route path="*" element={<Outlet />} />
         </Route>
       </Routes>

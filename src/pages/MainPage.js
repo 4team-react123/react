@@ -1,10 +1,10 @@
 import Main from "../component/Main";
 
-function Main(){
+function MainPage(){
     return(
         <div>
             <Main/>
         </div>
     )
 }
-export default Main;
+export default MainPage;

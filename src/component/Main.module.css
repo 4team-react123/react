@@ -1,447 +1,447 @@
 * {
-    box-sizing: border-box;
-    margin: 0; /* 모든 마진을 제거 */
-    padding: 0; /* 모든 패딩을 제거 */
-   }
-   body {
-    font-size: 14px;
-    transform: scale(1.05);
-  }
- a {
-    text-decoration: none; 
-    color: inherit;
-    cursor: pointer;
+  box-sizing: border-box;
+  margin: 0; /* 모든 마진을 제거 */
+  padding: 0; /* 모든 패딩을 제거 */
+ }
+ body {
+  font-size: 14px;
+  transform: scale(1.05);
 }
 
-  
-  .v4_7987 {
-    width: 100%;
-    height: 3707px;
-    background: rgba(249,247,242,1);
-    opacity: 1;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v4_7988 {
-    width: 85%;
-    height: 510px;
-    background: url("../../public/images/business.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 3200px;
-    left: 50%; /* x 축을 중앙으로 이동 */
-    transform: translateX(-50%); /* 요소의 절반만큼 왼쪽으로 이동시켜줌 */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    overflow: hidden;
-  }
-  
-  
-  .name {
-    color: #fff;
-  }
-  .v4_7990 {
-    width: 100%;
-    height: 669px;
-    background: rgba(247,247,247,1);
-    padding: 10px 104px;
-    margin: 10px;
-    opacity: 1;
-    position: absolute;
-    top: 84px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v4_7991 {
-    width: 666px;
-    height: 64px;
-    margin: 60px;
-    opacity: 1;
-    position: absolute;
-    top: 302px;
-    left: 104px;
-    overflow: hidden;
-  }
-  .v4_7992 {
-    width: 580px;
-    height: 500px;
-    background: rgba(255,255,255,1);
-    opacity: 0.05000000074505806;
-    position: absolute;
-    top: 41px;
-    left: 736px;
-    overflow: hidden;
-  }
-  .v4_7993 {
-    width: 510px;
-    height: 650px;
-    position: absolute;
-    top: 80px;
-    right: 10vw; 
-    z-index: 1; /* 더 낮은 z-index */
-    opacity: 1;
-    overflow: hidden;
+.v4_7987 {
+  width: 100%;
+  height: 3707px;
+  min-height: 100vh; 
+  background: rgba(249,247,242,1);
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  position: relative; 
+}
+
+.v4_7988 {
+  width: 85%;
+  height: 510px;
+  background: url("../../public/images/business.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3200px;
+  left: 50%; /* x 축을 중앙으로 이동 */
+  transform: translateX(-50%); /* 요소의 절반만큼 왼쪽으로 이동시켜줌 */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+
+.name {
+  color: #fff;
+}
+.v4_7990 {
+  width: 100%;
+  height: 669px;
+  background: rgba(247,247,247,1);
+  padding: 10px 104px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 84px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_7991 {
+  width: 666px;
+  height: 64px;
+  margin: 60px;
+  opacity: 1;
+  position: absolute;
+  top: 302px;
+  left: 104px;
+  overflow: hidden;
+}
+.v4_7992 {
+  width: 580px;
+  height: 500px;
+  background: rgba(255,255,255,1);
+  opacity: 0.05000000074505806;
+  position: absolute;
+  top: 41px;
+  left: 736px;
+  overflow: hidden;
+}
+.v4_7993 {
+  width: 510px;
+  height: 650px;
+  position: absolute;
+  top: 80px;
+  right: 10vw; 
+  z-index: 1; /* 더 낮은 z-index */
+  opacity: 1;
+  overflow: hidden;
 }
 
 .plantImage {
-    position: relative; /* z-index를 효과적으로 사용하기 위해 필요 */
-    z-index: 2; /* 더 높은 z-index */
-    width: 510px;
-    height: 650px;
-    
-    
-    background: none;
+  position: relative; /* z-index를 효과적으로 사용하기 위해 필요 */
+  z-index: 2; /* 더 높은 z-index */
+  width: 510px;
+  height: 650px;
+  
+  
+  background: none;
 }
 
-  .v4_7994 {
-    width: 400px;
-    height: 500px;
-    background: rgba(215,231,214,1);
-    opacity: 1;
-    position: absolute;
-    top: 92px;
-    left:100px;
-    right: 10vw;
-    border-bottom-left-radius: 1000px;
-    border-bottom-right-radius: 1000px;
-    overflow: hidden;
-  
-  }
-  .name {
-    color: #fff;
-  }
-  .v4_7998 {
-    width: 566px;
-    height: 300px;
-  
-  
-    background-position: center center;
-  
-    margin: 10px;
-    opacity: 1;
-    position: absolute;
-    top: 380px;
-    left: 30%;
-    overflow: hidden;
-  }
-  .v4_7999 {
-    width: 666px;
-    color: rgba(96,143,110,1);
-    position: absolute;
-    top: 30px;
-    left: 10px;
-    font-size: 72px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v4_8000 {
-    width: 666px;
-    color: rgba(35,52,40,1);
-    position: absolute;
-    top: 133px;
-    left: 30px;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v4_8001 {
-    width: 100%;
-    height: 2060px;
-    opacity: 1;
-    position: absolute;
-    top: 899px;
-    left: 10px;
-    overflow: hidden;
-  }
-  .v4_8002 {
-    width: 1150px;
-    height: 500px;
-    background: rgba(49,68,19,0.10000000149011612);
-    opacity: 1;
-    position: absolute;
-    top: 2560px;
-    left: 330px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    overflow: hidden;
-  }
+.v4_7994 {
+  width: 400px;
+  height: 500px;
+  background: rgba(215,231,214,1);
+  opacity: 1;
+  position: absolute;
+  top: 92px;
+  left:100px;
+  right: 10vw;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  overflow: hidden;
 
-  
-  .v4_8008 {
-    width: 598px;
-    color: rgba(35,52,40,1);
-    position: absolute;
-    top: 100px;
-    left: 60%;
-    font-size: 40px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v4_8009 {
-    width: 598px;
-    color: rgba(35,52,40,1);
-    position: absolute;
-    top: 170px;
-    left: 60%;
-    font-size: 20px;
-    opacity: 1;
-    text-align: left;
-  }
-  
-  
-  .v4_8013 {
-    width: 100%;
-    height: 512px;
-    background: url("../../public/images/forest.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 960px;
-    left: -40px;
-    overflow: hidden;
-  }
-  .v4_8014 {
-    width: 618px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 1100px;
-    left: 48%; 
-    transform: translateX(-50%); 
-    font-size: 64px;
-    opacity: 1;
-    text-align: center;
-  }
-  .v4_8015 {
-    width: 281px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 1200px;
-    left: 48%; /* x 축을 중앙으로 이동 */
-    transform: translateX(-50%); /* 요소의 절반만큼 왼쪽으로 이동시켜줌 */
-    font-size: 20px;
-    opacity: 1;
-    text-align: center;
-  }
-  
-  .v4_8016 {
-    width: 120px;
-    height: 70px;
-    background: url("../../public/images/버튼.png") no-repeat center center;
-    color:white;
-    background-size: cover;
-    opacity: 0.95;
-    position: absolute;
-    top: 1260px;
-    left: 44.5%;
-    border: none; 
-    cursor: pointer; 
-    overflow: hidden;
-  }
-  
-  .v4_8025 { /* Event */
-    width: 312px;
-    color:rgb(51, 51, 51);
-    font-weight: 540;
-    position: absolute;
-    top: 1770px;
-    left: 50%;
-    font-size: 70px;
-    opacity: 1;
-    text-align: center;
-  }
-  
-  .v4_8019 {
-  
-    color: gray;
-    position: absolute;
-    top: 1910px;
-    left:50%;
-    font-size: 28px;
-    opacity: 1;
-    text-align: left;
-  }
-  
-  .e_button {
-    width: 120px;
-    height: 70px;
-    background: url("../../public/images/버튼.png") no-repeat center center;
-    background-size: cover;
-    color: white;
-    opacity: 0.95;
-    position: absolute;
-    top: 1990px;
-    left: 56%; 
-    border: none;
-    cursor: pointer;
-    overflow: hidden; 
-    z-index: 10; 
-  }
-  
-  .v4_8021 {
-    width: 600px;
-    height: 500px;
-    background: url("../../public/images/earth.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 1580px;
-    left: 79px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    z-index: 1;
-  }
-  .v4_8022 {
-    width: 100%;
-    height: 791px;
-    background: url("../../public/images/leaf.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 280px;
-  
-    overflow: hidden;
-  }
-  
-  .v4_8023 {
-    width: 691px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 630px;
-    left:26%;
-    font-size: 40px;
-    opacity: 1;
-    text-align: center;
-  }
-  .v4_8024 {
-    width: 618px;
-    color:rgb(255, 255, 255);
-    position: absolute;
-    top: 3360px;
-    left: calc(50% - 309px); 
-    font-size: 64px;
-    opacity: 1;
-    text-align: center; 
-    font-weight: bold;
-  }
-  
-  
-  .v4_8026 {
-    width: 281px;
-    color: rgb(255, 255, 255);
-    position: absolute;
-    top: 3500px;
-    left: calc(50% - 140.5px); 
-    font-size: 28px;
-    opacity: 1;
-    text-align: center; 
-    font-weight: bold;
-  
-  }
-  
-  .c_button {
-    width: 120px;
-    height: 70px;
-    background: url("../../public/images/버튼.png") no-repeat center center;
-    background-size: cover;
-    color: white;
-    opacity: 0.95;
-    position: absolute;
-    top: 3580px;
-    left: 46%; 
-    border: none;
-    cursor: pointer;
-    overflow: hidden; 
-    z-index: 10; 
-  }
-  
+}
+.name {
+  color: #fff;
+}
+.v4_7998 {
+  width: 566px;
+  height: 300px;
 
-  
-  .v4_8029 {
-    width: 59px;
-    height: 55px;
-    background: url("../../public/images/logo.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 100px;
-    left: 50px;
-    overflow: hidden;
-    z-index: 1;
-  }
-  .v4_8030 {
-    width: 116px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 120px;
-    left: 100px;
-    font-size: 16px;
-    opacity: 1;
-    text-align: center;
-    z-index: 2;
-  }
-  .company{
-    z-index:4;
-  }
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 200px;
-    background-color: rgba(106, 119, 115, 1);
-    position: absolute;
-    top: 3730px;
-    left: 0;
-    color: white;
-    padding: 0 20px;
-  }
-  
-  .f_yegrina {
-    display: flex;
-    align-items: center;
-    margin-left:130px;
-  }
-  
-  .f_yegrina img {
-    width: 59px;
-    height: 55px;
-    margin-right: 20px;
-  }
-  
-  .f_yegrina p {
-    margin: 0;
-    font-size: 16px;
-  }
-  
-  .f_contect {
-    display: flex; /* 이 부분을 추가하여 span 태그들이 가로로 나란히 배열되게 함 */
-    align-items: center;
-    margin-right:100px !important;
-  }
-  
-  .main_link, .contect_link {
-    display: inline-block; /* inline-block으로 설정하여 각각의 span이 내용에 맞게 크기 조정 */
-  
-    padding-right: 15px; /* 필요하다면 우측 패딩 추가 */
-  }
-  
-  
-  
+
+  background-position: center center;
+
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 380px;
+  left: 30%;
+  overflow: hidden;
+}
+.v4_7999 {
+  width: 666px;
+  color: rgba(96,143,110,1);
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  font-size: 72px;
+  opacity: 1;
+  text-align: left;
+}
+.v4_8000 {
+  width: 666px;
+  color: rgba(35,52,40,1);
+  position: absolute;
+  top: 133px;
+  left: 30px;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.v4_8001 {
+  width: 100%;
+  height: 2060px;
+  opacity: 1;
+  position: absolute;
+  top: 899px;
+  left: 10px;
+  overflow: hidden;
+}
+.v4_8002 {
+  width: 1150px;
+  height: 500px;
+  background: rgba(49,68,19,0.10000000149011612);
+  opacity: 1;
+  position: absolute;
+  top: 2560px;
+  left: 330px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+
+
+.v4_8008 {
+  width: 598px;
+  color: rgba(35,52,40,1);
+  position: absolute;
+  top: 100px;
+  left: 60%;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v4_8009 {
+  width: 598px;
+  color: rgba(35,52,40,1);
+  position: absolute;
+  top: 170px;
+  left: 60%;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.v4_8013 {
+  width: 100%;
+  height: 512px;
+  background: url("../../public/images/forest.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 960px;
+  left: -40px;
+  overflow: hidden;
+}
+.v4_8014 {
+  width: 618px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1100px;
+  left: 48%; 
+  transform: translateX(-50%); 
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+}
+.v4_8015 {
+  width: 281px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1200px;
+  left: 48%; /* x 축을 중앙으로 이동 */
+  transform: translateX(-50%); /* 요소의 절반만큼 왼쪽으로 이동시켜줌 */
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+
+.r_button {
+  width: 120px;
+  height: 60px;
+  background-color:rgba(35, 52, 40, 1);
+  border: rgba(35, 52, 40, 1) solid 1px;
+  border-radius:30px;
+  color:white;
+  background-size: cover;
+  opacity: 0.95;
+  position: absolute;
+  top: 1260px;
+  left: 44.5%;
+  border: none; 
+  cursor: pointer; 
+  overflow: hidden;
+  z-index: 10;
+}
+
+.v4_8025 { /* Event */
+  width: 312px;
+  color:rgb(51, 51, 51);
+  font-weight: 540;
+  position: absolute;
+  top: 1770px;
+  left: 50%;
+  font-size: 70px;
+  opacity: 1;
+  text-align: center;
+}
+
+.v4_8019 {
+
+  color: gray;
+  position: absolute;
+  top: 1910px;
+  left:50%;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+
+.e_button {
+  width: 120px;
+  height: 60px;
+  background-color:rgba(35, 52, 40, 1);
+  border: rgba(35, 52, 40, 1) solid 1px;
+  border-radius: 30px;
+  color: white;
+  opacity: 0.95;
+  position: absolute;
+  top: 1990px;
+  left: 56%; 
+  cursor: pointer;
+  overflow: hidden; 
+  z-index: 10; 
+}
+
+.v4_8021 {
+  width: 600px;
+  height: 500px;
+  background: url("../../public/images/earth.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1580px;
+  left: 79px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 1;
+}
+.v4_8022 {
+  width: 100%;
+  height: 791px;
+  background: url("../../public/images/leaf.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 280px;
+
+  overflow: hidden;
+}
+
+.v4_8023 {
+  width: 691px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 630px;
+  left:26%;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.v4_8024 {
+  width: 618px;
+  color:rgb(255, 255, 255);
+  position: absolute;
+  top: 3360px;
+  left: calc(50% - 309px); 
+  font-size: 64px;
+  opacity: 1;
+  text-align: center; 
+  font-weight: bold;
+}
+
+
+.v4_8026 {
+  width: 281px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 3500px;
+  left: calc(50% - 140.5px); 
+  font-size: 28px;
+  opacity: 1;
+  text-align: center; 
+  font-weight: bold;
+
+}
+
+.c_button {
+  width: 120px;
+  height: 60px;
+  background-color:rgba(35, 52, 40, 1);
+  border: rgba(35, 52, 40, 1) solid 1px;
+  border-radius:30px;
+  color: white;
+  opacity: 0.95;
+  position: absolute;
+  top: 3580px;
+  left: 46%; 
+
+  cursor: pointer;
+  overflow: hidden; 
+  z-index: 10; 
+}
+
+
+
+.v4_8029 {
+  width: 59px;
+  height: 55px;
+  background: url("../../public/images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  overflow: hidden;
+  z-index: 1;
+}
+.v4_8030 {
+  width: 116px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  z-index: 2;
+}
+.company{
+  z-index:4;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(106, 119, 115, 1);
+  position: absolute;
+  top: 3730px;
+  left: 0;
+  color: white;
+  padding: 0 20px;
+}
+
+.f_yegrina {
+  display: flex;
+  align-items: center;
+  margin-left:130px;
+}
+
+.f_yegrina img {
+  width: 59px;
+  height: 55px;
+  margin-right: 20px;
+}
+
+.f_yegrina p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.f_contect {
+  display: flex; /* 이 부분을 추가하여 span 태그들이 가로로 나란히 배열되게 함 */
+  align-items: center;
+  margin-right:100px !important;
+}
+
+.main_link, .contect_link {
+  display: inline-block; /* inline-block으로 설정하여 각각의 span이 내용에 맞게 크기 조정 */
+
+  padding-right: 15px; /* 필요하다면 우측 패딩 추가 */
+}
+
+
