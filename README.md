@@ -26,11 +26,11 @@
 ## 🔎 개발 과정
 
 #### ✔ 환경 설정
-- React 18
+- React 
 - HTML5
 
 #### ✔ 개발 환경
-vscode,React
+vscode, React
 
 #### ✔ 협업 툴
 ![Notion](https://img.shields.io/badge/notion-FCBFBD?style=for-the-badge&logo=notion&logoColor=white)
