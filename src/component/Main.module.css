@@ -159,7 +159,7 @@
     overflow: hidden;
 
   }
-.mainleaf{    background: url('../../../project/public/images/mainleaf.png') no-repeat center center;
+.mainleaf{    background: url('../../public/images/mainleaf.png') no-repeat center center;
     background-size: cover;}
 .v4_8002 {
   width: 850px;
@@ -323,7 +323,7 @@
   font-size: 40px;
   opacity: 1;
   text-align: center;
-  background: url('../../../project/public/images/leaf.png') no-repeat center center;
+  background: url('../../public/images/leaf.png') no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;
